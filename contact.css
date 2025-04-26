@@ -1,0 +1,129 @@
+  
+    body 
+    {
+      font-family: Arial, sans-serif;
+      background-image: url('BGimg.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    .navbar 
+    {
+      background-color: #333;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar ul 
+    {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar li
+    {
+      margin: 0 20px;
+    }
+
+    .navbar a 
+    {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .navbar a:hover 
+    {
+      background-color: #555;
+    }
+
+    h1 
+    {
+      text-align: center;
+      margin-top: 60px;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .contact-form 
+    {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 30px 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-form label 
+    {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form select,
+    .contact-form textarea,
+    .contact-form button 
+    {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+
+    textarea 
+    {
+      height: 120px;
+      resize: vertical;
+    }
+
+    button 
+    {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover 
+    {
+      background-color: #3e8e41;
+    }
+
+    #form-status 
+    {
+      text-align: center;
+      font-weight: bold;
+      color: green;
+      margin-top: 10px;
+    }
+
+    /* Scroll Animation Styles */
+    .animate 
+    {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+
+    .animate.visible 
+    {
+      opacity: 1;
+      transform: translateY(0);
+    }
