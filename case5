@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABC University Website</title>
+ <link rel="stylesheet" href="homepage.css" />
+</head>
+
+
+
+
+<body background="BGimg.jpg">
+
+  <section class="hero">
+      <h1>Welcome to ABC University</h1>
+      <p>Empowering the leaders of tomorrow</p>
+
+      <nav class="navbar">
+          <ul>
+              <li><a href="case5.html">Home</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="calculator.html">Tuition Fees Calculator</a></li>
+          </ul>
+      </nav>
+  </section>
+
+  <section class="gallery">
+      <div class="scroll-container">
+        <div class= scroll-track>
+            <img src="img1.jpg" alt="Campus Life" />
+            <img src="img2.jpg" alt="Library" />
+            <img src="img3.jpg" alt="Graduation Ceremony" />
+            
+            <img src="img1.jpg" alt="Campus Life" />
+            <img src="img2.jpg" alt="Library" />
+            <img src="img3.jpg" alt="Graduation Ceremony" />
+
+            <img src="img1.jpg" alt="Campus Life" />
+            <img src="img2.jpg" alt="Library" />
+            <img src="img3.jpg" alt="Graduation Ceremony" />
+        </div>
+      </div>
+  </section>
+
+
+
+  <section class="intro">
+    <h2 class="animate__animated animate__fadeInLeft">Our Mission</h2>
+    <p>We strive to provide quality education and foster holistic development.</p>
+  </section>
