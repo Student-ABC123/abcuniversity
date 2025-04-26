@@ -1,0 +1,122 @@
+
+    
+    body 
+    {
+      font-family: Arial, sans-serif;
+      background-image: url('BGimg.jpg');
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    .navbar 
+    {
+      background-color: #333;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar ul 
+    {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar li 
+    {
+      margin: 0 20px;
+    }
+
+    .navbar a 
+    {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .navbar a:hover 
+    {
+      background-color: #555;
+    }
+
+    h1 
+    {
+      text-align: center;
+      margin-top: 60px;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .calculator 
+    {
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .calculator label 
+    {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .calculator input,
+    .calculator select,
+    .calculator button 
+    {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button 
+    {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover 
+    {
+      background-color: #3e8e41;
+    }
+
+    #result 
+    {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .animate 
+    {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+
+    .animate.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
